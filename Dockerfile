@@ -1,5 +1,3 @@
-# This Dockerfile is for building a Jenkins image with Docker CLI support.
-
 FROM jenkins/jenkins:2.414.2-jdk11
 USER root
 RUN apt-get update && apt-get install -y lsb-release python3-pip
